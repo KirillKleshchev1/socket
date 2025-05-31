@@ -46,10 +46,6 @@ echo "Task 2" >> result.txt
 task1
 task1
 
-echo "Check heap" >> result.txt
-head -n 2 $LOG | tail -n 1 >> result.txt
-echo "---" >> result.txt
-tail -n 2 $LOG | head -n 1 >> result.txt
 echo "" >> result.txt
 
 echo "Task 3" >> result.txt
